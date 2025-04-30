@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Blitz 2.0 - E-Cell NIT Agartala</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="final view.jpeg" alt="E-Cell NIT Agartala Logo">
+            <span>Startup Blitz 2.0</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#timer-section">Countdown</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#registration-form">Register</a></li>
+            <li><a href="#venue">Venue</a></li>
+        </ul>
+    </nav>
+
+    <header>
+         <img src="final view.jpeg" alt="E-Cell Logo" class="logo" height="100px" width="100px">
+        <h1>Startup Blitz 2.0</h1>
+        <p>Organized by E-Cell, NIT Agartala</p>
+        <button id="toggle-mode">Toggle Light/Dark Mode</button>
+    </header>
+
+    <section class="countdown" id="timer-section">
+        <h2>Event Countdown</h2>
+        <div id="timer">
+            <div><span id="days"></span><br>Days</div>
+            <div><span id="hours"></span><br>Hours</div>
+            <div><span id="minutes"></span><br>Minutes</div>
+            <div><span id="seconds"></span><br>Seconds</div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About the Event</h2>
+        <p>Startup Blitz 2.0 is a one-day entrepreneurial extravaganza that brings together innovators, investors, and mentors under one roof. Gear up for workshops, pitch battles, networking sessions, and a whole lot of inspiration!</p>
+    </section>
+
+    <section id="venue" class="venue">
+        <h2>Event Venue</h2>
+        <p>Join us at <strong>Visvesvaraya Auditorium, NIT Agartala</strong> for a day of innovation, inspiration, and interaction with the brightest minds in the startup ecosystem.</p>
+    </section>
+
+    <section class="registration" id="registration-form">
+        <h2>Register Now</h2>
+        <form id="registration-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="college" placeholder="Your College" required>
+            <button type="submit">Register</button>
+        </form>
+        <div id="registration-success"></div>
+    </section>
+    
+    <footer>
+        
+        <div class="footer-icons">
+            <a href="https://www.instagram.com" target="_blank" class="footer-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" />
+            </a>
+            <a href="mailto:contact@startupblitz.com" target="_blank" class="footer-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Gmail_Icon_%282013-2020%29.svg" alt="Email" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="footer-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2022.svg" alt="LinkedIn" />
+            </a>
+        </div>
+    </footer>
+    
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
